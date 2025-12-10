@@ -32,7 +32,7 @@ int main()
     //分行输出
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
-            printf("%d", a[ii]);
+            printf("%d", a[j]);
             if (j != n - 1)
                 printf(" ");
         }
@@ -47,4 +47,5 @@ int main()
         a[0] = z;
     }
     return 0;
+
 }
